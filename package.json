@@ -1,0 +1,54 @@
+{
+  "name": "boilerplate",
+  "description": "boilerplate",
+  "version": "2.10.2",
+  "private": true,
+  "dependencies": {
+    "@nuxt/types": "^0.5.6",
+    "@nuxt/typescript-runtime": "0.3.2",
+    "@nuxtjs/axios": "5.8.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "nuxt": "2.10.2",
+    "tslib": "^1.10.0",
+    "vue-property-decorator": "^8.3.0",
+    "vuex": "^3.1.2",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest --passWithNoTests",
+    "fix:tslint": "tslint --fix --project ."
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxt/typescript-build": "^0.5.1",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@tailwindcss/ui": "^0.3.0",
+    "@types/node": "^12.12.17",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.16.4",
+    "sass-loader": "^8.0.2",
+    "vue-jest": "^4.0.0-0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
